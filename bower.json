@@ -1,0 +1,7 @@
+{
+    "name": "rudloff.pro",
+    "version": "0.1",
+    "dependencies": {
+        "montserrat": "~1.0.0"
+    }
+}

@@ -1,0 +1,25 @@
+### Miscellaneous
+.DS_Store
+Thumbs.db
+
+### Composer
+/vendor/
+
+### IDE
+.idea/
+
+### Wordpress
+/htdocs/cms/*
+!/htdocs/cms/.gitkeep
+/htdocs/content/mu-plugins/themosis-framework/
+/htdocs/content/themes/themosis-theme/
+/htdocs/content/uploads/
+/htdocs/content/upgrade/
+
+
+### Environment Credentials
+.env.*.php
+
+
+htdocs/content/themes/rudloff/app/assets/bower/
+htdocs/content/plugins/
