@@ -1,13 +1,12 @@
 {
-	"name": "themosis/themosis",
-	"description": "The Themosis framework. A framework for WordPress developers.",
-	"keywords": ["themosis", "framework", "WordPress"],
-	"license": "GPL-2.0+",
+	"name": "rudloff/themosis",
+	"description": "Themosis-based template for rudloff.pro",
+	"license": "GPL-3.0",
 	"authors": [
 		{
-			"name": "Julien Lambé",
-			"email": "julien@themosis.com",
-			"homepage": "http://www.themosis.com/"
+			"name": "Pierre Rudloff",
+			"email": "contact@rudloff.pro",
+			"homepage": "https://rudloff.pro/"
 		}
 	],
 	"type": "project",
@@ -26,10 +25,10 @@
 		"preferred-install": "dist"
 	},
 	"require": {
-		"php": ">=5.4",
-		"johnpbloch/wordpress": ">=4.1",
-		"themosis/framework": "1.1.*",
-		"themosis/theme": "1.1.*",
+		"php": "~5.4",
+		"johnpbloch/wordpress": "~4.1",
+		"themosis/framework": "~1.1.0",
+		"themosis/theme": "~1.1.0",
         "wpackagist-plugin/wordpress-seo": "~2.1.1",
         "wpackagist-plugin/amazon-s3-and-cloudfront": "~0.8.2"
 	},
