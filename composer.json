@@ -1,44 +1,55 @@
 {
-	"name": "rudloff/themosis",
-	"description": "Themosis-based template for rudloff.pro",
-	"license": "GPL-3.0",
-	"authors": [
-		{
-			"name": "Pierre Rudloff",
-			"email": "contact@rudloff.pro",
-			"homepage": "https://rudloff.pro/"
-		}
-	],
-	"type": "project",
-	"repositories":[
-		{
-			"type": "composer",
-			"url": "http://wpackagist.org"
-		}
-	],
-	"autoload": {
-		"psr-0": {
-			"Thms": "library"
-		}
-	},
-	"config": {
-		"preferred-install": "dist"
-	},
-	"require": {
-		"php": "~5.4",
-		"johnpbloch/wordpress": "~4.1",
-		"themosis/framework": "~1.1.0",
-		"themosis/theme": "~1.1.0",
+    "name": "rudloff/themosis",
+    "description": "Themosis-based template for rudloff.pro",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Pierre Rudloff",
+            "email": "contact@rudloff.pro",
+            "homepage": "https://rudloff.pro/"
+        }
+    ],
+    "type": "project",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://wpackagist.org"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Thms": "library"
+        }
+    },
+    "config": {
+        "preferred-install": "dist"
+    },
+    "require": {
+        "php": "~5.4",
+        "johnpbloch/wordpress": "~4.1",
+        "themosis/framework": "~1.1.0",
+        "themosis/theme": "~1.1.0",
         "wpackagist-plugin/wordpress-seo": "~2.1.1",
         "wpackagist-plugin/amazon-s3-and-cloudfront": "~0.8.2"
-	},
-	"extra":{
-		"installer-paths":{
-			"htdocs/content/mu-plugins/themosis-{$name}/": ["themosis/framework"],
-			"htdocs/content/plugins/{$name}/": ["type:wordpress-plugin"],
-			"htdocs/content/themes/themosis-{$name}/": ["themosis/theme"],
-			"htdocs/content/themes/{$name}/": ["type:wordpress-theme"]
-		},
-		"wordpress-install-dir": "htdocs/cms"
-	}
+    },
+    "extra": {
+        "installer-paths": {
+            "htdocs/content/mu-plugins/themosis-{$name}/": [
+                "themosis/framework"
+            ],
+            "htdocs/content/plugins/{$name}/": [
+                "type:wordpress-plugin"
+            ],
+            "htdocs/content/themes/themosis-{$name}/": [
+                "themosis/theme"
+            ],
+            "htdocs/content/themes/{$name}/": [
+                "type:wordpress-theme"
+            ]
+        },
+        "wordpress-install-dir": "htdocs/cms",
+        "paas": {
+            "document-root": "htdocs/"
+        }
+    }
 }
