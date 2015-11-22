@@ -128,12 +128,12 @@ a {
 .menu .current_page_item:first-child {
     color:white;
 }
-.menu .current_page_item:nth-child(2) {
+.menu .current_page_item.menu-item-26 {
     background-color:#8BC519;
     color:white;
 }
 
-.menu .current_page_item:nth-child(3) {
+.menu .current_page_item.menu-item-25 {
     background-color:#00AEFF;
     color:white;
 }
@@ -143,15 +143,15 @@ a {
     background-image: url(../images/home_white.png);
     outline:none;
 }
-.nav li:nth-child(2) a:focus,
-.nav li:nth-child(2) a:hover,
-.menu .current_page_item:nth-child(2) a {
+.nav .menu-item-26 a:focus,
+.nav .menu-item-26 a:hover,
+.menu .current_page_item.menu-item-26 a {
     background-image: url(../images/book_white.png);
     outline:none;
 }
-.nav li:nth-child(3) a:focus,
-.nav li:nth-child(3) a:hover,
-.menu .current_page_item:nth-child(3) a {
+.nav .menu-item-25 a:focus,
+.nav .menu-item-25 a:hover,
+.menu .current_page_item.menu-item-25 a {
     background-image: url(../images/letter_white.png);
     outline:none;
 }
@@ -160,11 +160,11 @@ a {
     background-image: url(../images/home_orange.png);
 }
 
-.nav li:nth-child(2) a {
+.nav .menu-item-26 a {
     background-image: url(../images/book_green.png);
 }
 
-.nav li:nth-child(3) a {
+.nav .menu-item-25 a {
     background-position:40px 25px;
     background-image: url(../images/letter_blue.png);
 }
@@ -867,7 +867,7 @@ h3 img {
     }
     
     .main {
-        margin-top:217px;
+        margin-top:219px;
     }
     
     .nav,
@@ -881,20 +881,20 @@ h3 img {
         border-radius:0;
         margin:0;
         height:75px;
-        width:33.33%;
+        width:50%;
     }
     
-    .nav li:nth-child(1) {
+    .nav .menu-item-22 {
         float:left;
     }
-    .nav li:nth-child(2) {
+    .nav .menu-item-26 {
         float:left;
     }
     
-    .nav li:nth-child(3) {
+    .nav .menu-item-25 {
         float:right;
     }
-    .nav li:nth-child(3) a {
+    .nav .menu-item-25 a {
         background-position:center 13px;
     }
     .nav li a {
