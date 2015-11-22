@@ -8,5 +8,5 @@ return function()
         return 'scalingo';
     }
 
-    return 'netbook';
+    return 'local';
 };
