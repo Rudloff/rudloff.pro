@@ -25,9 +25,9 @@
 	<aside class="last_work">
     <h3 class="last_work_title">Dernières réalisations</h3>
     <ul>
-    <BOUCLE_realisations(ARTICLES) {id_rubrique=2} {!par date} {0, 4}>
-        <li class="small"><a href="#URL_ARTICLE">[(#LOGO_ARTICLE|image_passe_partout{125,125}|image_recadre{125,125, left, 363636}|inserer_attribut{alt,#TITRE}|image_aplatir{PNG, 252525})]<br/>#NOM_SITE</a></li>
-        </BOUCLE_realisations>
+    @query(array('post_type'=>'work'))
+        <li class="small"><a href="#URL_ARTICLE">{{ Loop::thumbnail('thumbnail') }}<br/>{{ Loop::title() }}</a></li>
+        @endquery
         </ul>
     </aside>
 	@include('perso')
