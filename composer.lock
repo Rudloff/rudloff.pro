@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "6401aa4168e2bcccc5bcfa35f87b0271",
-    "content-hash": "084218215c711cc2b863b740eaaf0e1a",
+    "hash": "051aaf78d4416b34a7d1138412d05649",
+    "content-hash": "a98e3e6dc350158e6a128b054a20a0f7",
     "packages": [
         {
             "name": "composer/installers",
@@ -383,36 +383,16 @@
             "time": "2015-03-18 14:37:59"
         },
         {
-            "name": "wpackagist-plugin/amazon-s3-and-cloudfront",
-            "version": "0.8.2",
-            "source": {
-                "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/amazon-s3-and-cloudfront/",
-                "reference": "tags/0.8.2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/amazon-s3-and-cloudfront.0.8.2.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/amazon-s3-and-cloudfront/"
-        },
-        {
             "name": "wpackagist-plugin/wordpress-seo",
-            "version": "2.1.1",
+            "version": "3.0.3",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/2.1.1"
+                "reference": "tags/3.0.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.2.1.1.zip",
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.3.0.3.zip",
                 "reference": null,
                 "shasum": null
             },
