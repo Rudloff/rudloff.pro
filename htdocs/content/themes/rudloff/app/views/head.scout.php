@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html lang="{{ get_locale() }}">
+<html lang="{{ substr(get_locale(), 0, 2) }}">
 	<head>
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 
