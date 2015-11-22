@@ -2,14 +2,14 @@
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
-  src: url(../bower/montserrat/Montserrat-Regular.otf);
+  src: url(../bower/montserrat-googlefont/Montserrat-Regular.ttf);
 }
 
 @font-face {
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 700;
-  src: url(../bower/montserrat/Montserrat-Bold.otf);
+  src: url(../bower/montserrat-googlefont/Montserrat-Bold.ttf);
 }
 
 
